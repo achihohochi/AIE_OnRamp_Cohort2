@@ -10,7 +10,7 @@
     - Merge `code` written at different times or people
 - Technically, there are other distributed version control systems. These can be seen as alternatives to Git. However, *for all intents and purposes, **there are no alternatives** for someone getting started in software development today*.
 
-☁️ [GitHub](http://github.com/) is a proprietary developer platform that allows developers to create, store, manage, and share their code.
+☁️ [GitHub](http://github.com/) is a proprietary developer platform that allows developers to create, store, manage, and share their code.  GitHub can be used for free, and no paid add-ons are necessary for completion of this course or the AIE Bootcamp.
 
 - GitHub is a website (platform) that hosts Git repositories in the cloud
 - It uses Git, and has extra features like
@@ -18,6 +18,8 @@
     - Collaboration tools like [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and [code review](https://github.com/features/code-review)
     - and more…
 - While alternatives to GitHub do exist - like [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org/product/) - understanding the core patterns will allow you to pick up any other tool.
+
+You can create a Git repository on GitHub and then clone a copy onto your laptop;  you can also create a Git repository on your laptop and then add it to GitHub. This allows you to work on your code locally, and then push your changes to GitHub to share with others.
 
 ### Thinking Questions
 
