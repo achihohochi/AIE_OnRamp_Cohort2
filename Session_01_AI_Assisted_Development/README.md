@@ -9,7 +9,7 @@ In session 1, we’ll kick off the cohort! You’ll get introduced to **AI Make
 
 ## **🧑‍💻 Recommended Pre-Work**
 
-1. 🔀 Review the **Git Flow** in `00_Setting_Up_GitHub`
+1. 🔀 Review the prerequisite Git & LLM/Agent material in `1` through `6` 
 2. 📚 Read the following relevant papers and blogs on **AI-Assisted Development**:
     - [Cursor Release Blog 2.0](https://cursor.com/blog/2-0) (Oct 2025)
     - [Claude Code: Best Practices for Agentic Coding](https://www.anthropic.com/engineering/claude-code-best-practices) (Apr 2025)
