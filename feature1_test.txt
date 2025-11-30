@@ -1,2 +1,0 @@
-This is a test file for feature1.
-i added a new line, please review, and accept the change
