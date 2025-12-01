@@ -45,6 +45,7 @@ In addition to the optional README overviews of topics in the main repository, f
 - 🖱️ Code Editor: [Cursor](https://www.cursor.com/)
 - 🤖 CLI Coding Agent: [Cursor CLI](https://cursor.com/docs/cli/overview)
 - 🧠 LLM: [OpenAI GPT models](https://platform.openai.com/docs/models)
+  - **Security**: Store API keys in a `.env` file (already in [.gitignore](/.gitignore#L138))
 - 🎨 User Interface: Vibe-coded with [v0](https://v0.app/)
 - ⚡ Web App Framework: [FastAPI](https://fastapi.tiangolo.com/)
 - ☁️ Deployment: [Vercel](https://vercel.com/) & [Render](https://render.com/docs)

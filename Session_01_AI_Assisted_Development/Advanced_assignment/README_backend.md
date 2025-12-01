@@ -5,6 +5,8 @@
 ### Prerequisites
 Make sure you have Python 3.7+ installed.
 
+**Security Best Practice**: If you need to store API keys or secrets, create a `.env` file in the project root. This file is already included in [.gitignore](/.gitignore#L138) to prevent accidentally committing sensitive information to version control.
+
 ### Installation
 
 1. Install the required dependencies:

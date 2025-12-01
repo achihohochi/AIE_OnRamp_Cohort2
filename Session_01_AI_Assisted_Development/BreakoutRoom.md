@@ -154,6 +154,7 @@ Before we start building, we need to ensure your development environment is prop
    git config --global user.email "your_email@example.com"
    git config --global user.name "Your Name"
    ```
+   - **Security Note**: If you configure API keys, store them in a `.env` file (already in [.gitignore](/.gitignore#L138)) to protect sensitive data.
 
 4. **Verify Installation:**
    ```bash

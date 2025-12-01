@@ -6,6 +6,7 @@ In session 1, we’ll kick off the cohort! You’ll get introduced to **AI Make
 
 1. 🧑‍💻 Set up **Cursor** as your [AI-Assisted Interactive Development Environment (AI-IDE)](https://github.com/AI-Maker-Space/Awesome-AIM-Index/blob/main/README.md#:~:text=Cursor%3A%20An%20AI%20Engineer%E2%80%99s%20Guide%20to%20Vibe%20Coding%20and%20Beyond).
 2. 🔑 Set up an **API key** for [OpenAI](https://platform.openai.com/docs/models). Start [here](https://platform.openai.com/docs/quickstart/step-2-set-up-your-api-key) to create an OpenAI key that you can use throughout the course!
+   - **Security Best Practice**: When storing API keys, create a `.env` file in your project root. This file is already included in [.gitignore](/.gitignore#L138) to prevent accidentally committing secrets to version control.
 
 ## **🧑‍💻 Recommended Pre-Work**
 

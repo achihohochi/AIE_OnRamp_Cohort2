@@ -547,6 +547,7 @@ Create a Python backend server (app.py) with LLM integration, add it to a GitHub
    - Copy the `app.py` file from `./Advanced_assignment/app.py`
    - Paste it into the root of your cloned repository
    - The `app.py` file contains a FastAPI backend with a sentiment analysis endpoint
+   - **Security Note**: If you add API keys or secrets, create a `.env` file. This is already included in [.gitignore](/.gitignore#L138) to prevent committing sensitive data.
 
 4. Test the backend locally following the steps in `./Advanced_assignment/README_backend.md`:
    - Install dependencies:
