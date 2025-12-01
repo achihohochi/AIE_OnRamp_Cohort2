@@ -21,6 +21,24 @@ Class is held from 12:00 to 1:30 PM on Mondays, and will open promptly at 12:00:
 2. 🌏 **Discord**: Join the AIM Discord [here](https://discord.gg/uWDzDtz8). *Send your Discord username to **`courseops@aimakerspace.io` with the subject line "AIEO2 Discord Access" ***. Then ensure you have access to AIEO2-specific, private Discord Channels described below (described below!).
 3. ⚠️ **Prerequisites**: Read through each of the README.md files in this Repo!
 
+## 🔍 Setup Checker
+
+Verify your development environment is ready:
+
+Note: run the below commands from the root of the repo.
+
+One off command:
+```bash
+chmod +x scripts/setup-checker.sh
+```
+
+To check the setup each time:
+```bash
+./scripts/setup-checker.sh
+```
+
+This checks your shell, OS tools, Git, Python, IDEs, and API keys. Follow the output instructions to fix any ❌ red X marks, then re-run to verify.
+
 # 🧑‍🎓 Course Materials
 
 `00_Quicklinks` is your one-stop shop for all course materials, and our [syllabus and detailed schedule](https://bit.ly/aieo2-curr) will guide us through the course.
