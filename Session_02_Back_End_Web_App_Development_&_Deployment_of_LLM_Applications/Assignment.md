@@ -43,6 +43,7 @@ You can get inspired by the sample scripts in the `sample_backend_scripts` folde
 
 ---
 
+<a id="part-1--backend-build-fastapi--angel-chat--deploy-to-vercel"></a>
 # Part 1 — Backend: Build FastAPI + Angel Chat + Deploy to Vercel 🐍☁️
 
 ## Step 1: Set Up Your Environment 🏗️
@@ -215,6 +216,7 @@ Your backend should now be live! Test it at your Vercel URL.
 
 ---
 
+<a id="part-2--advanced-add-student-questions--context-awareness-"></a>
 # Part 2 — Advanced: Add Student Questions & Context Awareness 🎯
 
 For the advanced assignment, enhance your backend to include a 4-question form that collects student information and uses it to personalize the Angel's responses.
