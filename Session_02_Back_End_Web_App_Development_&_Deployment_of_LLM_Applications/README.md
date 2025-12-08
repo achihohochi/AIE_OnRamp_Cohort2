@@ -61,7 +61,7 @@ In this session, you'll build a Python FastAPI backend called **TreatOrHell** (H
 The deployed TreatOrHell backend on Vercel (and optional frontend connected to it)!
 
 Our deployed Vercel applications are here: 
-1. https://backend-treat-or-hell-1f5w4f0gb-kats-projects-e3077004.vercel.app/
+1. https://backend-treat-or-hell.vercel.app/
 
 <details>
 <summary>🚧 Advanced Modules (OPTIONAL) — <i>open for details</i></summary>
