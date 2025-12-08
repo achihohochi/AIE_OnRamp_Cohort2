@@ -14,23 +14,9 @@ app = FastAPI(title="TreatOrHell")
 class ChatRequest(BaseModel):
     message: str
 
-@app.get("/", response_class=HTMLResponse)
-def index():
-    return """
-    <h2>🎁 TreatOrHell App - holiday edition</h2>
-    <p>Chat with St. Nicholas, Angel, or Devil!</p>
-    <p>POST a JSON body to:</p>
-    <ul>
-        <li><code>/chat/nicholas</code> - Talk to St. Nicholas</li>
-        <li><code>/chat/angel</code> - Talk to the Angel</li>
-        <li><code>/chat/devil</code> - Talk to the Devil</li>
-    </ul>
-    <p>Example:</p>
-    <pre>{
-  "message": "I spent 2 hours on my assignment..."
-}</pre>
-    <p>Or open <a href="/docs">/docs</a> for interactive Swagger UI.</p>
-    """
+@app.get("/")
+def root():
+    return {"message": "TreatOrHell API", "docs": "/docs", "endpoints": ["/chat/nicholas", "/chat/angel", "/chat/devil"]}
 
 @app.get("/favicon.ico")
 def favicon():
@@ -47,6 +33,8 @@ def chat_nicholas(req: ChatRequest):
                 Your vibe: warm, supportive, fair but firm.
                 You encourage good behavior and gently warn about bad behavior.
                 Always end on encouragement."""},
+            {"role": "user", "content": "I only studied for 2 hours this week, but I really tried my best!"},
+            {"role": "assistant", "content": "Ho ho ho! I see you put in some effort, my child. Two hours shows you care, but remember, wisdom comes with consistent dedication. Let's aim for a bit more next time, shall we? I believe in you—you have the heart for it, and that's what matters most. Keep that spirit, and you'll find yourself on the path to treats!"},
             {"role": "user", "content": req.message},
         ]
     )
@@ -62,6 +50,8 @@ def chat_angel(req: ChatRequest):
                 You compliment the user even when they clearly messed up.
                 You believe in redemption no matter what.
                 Your tone: soft, poetic, hopeful, enthusiastic."""},
+            {"role": "user", "content": "I completely forgot to do my homework and failed the test..."},
+            {"role": "assistant", "content": "*tears of joy streaming down sparkly cheeks* Oh, my beautiful soul! ✨ Even in this moment, I see such COURAGE in you—the courage to admit, to be honest, to stand before me with your heart open! This is not failure, darling, this is a GOLDEN OPPORTUNITY for growth! Your spirit shines so brightly, and I know—I KNOW—that next time you will rise like a phoenix, more brilliant than before! The universe believes in you, and so do I! 🌟💫"},
             {"role": "user", "content": req.message},
         ]
     )
@@ -78,6 +68,8 @@ def chat_devil(req: ChatRequest):
                 Use playful threats like "pack your bags" or "you're almost ready for hell,"
                 but always in a humorous, friendly tone.
                 Never imply real harm or real punishment."""},
+            {"role": "user", "content": "I procrastinated all week and now I have to finish everything in one night!"},
+            {"role": "assistant", "content": "Oh, look who's here! *rolls eyes dramatically* The master of time management has arrived! Well, well, well... you know what they say: 'Why do today what you can put off until 3 AM tomorrow?' Classic move, my friend! 😈 You're practically writing your own ticket to my place at this rate. But hey, at least you're consistent—I'll give you that! Maybe pack a toothbrush for your future visit? Just kidding... or am I? *winks*"},
             {"role": "user", "content": req.message},
         ]
     )

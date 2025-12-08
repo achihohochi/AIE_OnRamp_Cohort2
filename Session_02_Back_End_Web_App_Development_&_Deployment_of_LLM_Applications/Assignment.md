@@ -1,4 +1,4 @@
-# 🤝 Assignment: Build Your *Hot Mess Coach* Backend with Angel Chat
+# 🤝 Assignment: Build Your *TreatOrHell* Backend with Angel Chat
 
 Welcome! In this Assignment you will build a **Python FastAPI application** with an **LLM-powered chat** featuring the Angel character, and deploy it to **Vercel**.
 
@@ -8,7 +8,7 @@ Welcome! In this Assignment you will build a **Python FastAPI application** with
 - [Prerequisites](#prerequisites)
 - [Part 1 — Backend: Build FastAPI + Angel Chat + Deploy to Vercel 🐍☁️](#part-1--backend-build-fastapi--angel-chat--deploy-to-vercel)
   - [Step 1: Set Up Your Environment 🏗️](#step-1-set-up-your-environment-)
-  - [Step 2: Create Your FastAPI "Hot Mess Coach" App with Angel Chat 🧱](#step-2-create-your-fastapi-hot-mess-coach-app-with-angel-chat-)
+  - [Step 2: Create Your FastAPI "TreatOrHell" App with Angel Chat 🧱](#step-2-create-your-fastapi-hot-mess-coach-app-with-angel-chat-)
   - [Step 3: Deploy FastAPI Backend to Vercel ☁️](#step-3-deploy-fastapi-backend-to-vercel-)
 - [Part 2 — Advanced: Add Student Questions & Context Awareness 🎯](#part-2--advanced-add-student-questions--context-awareness-)
 - [🏗️ Assignment Checklist](#assignment-checklist)
@@ -68,7 +68,7 @@ You can copy them from the course repository if they're provided.
 
 ---
 
-## Step 2: Create Your FastAPI "Hot Mess Coach" App with Angel Chat 🧱
+## Step 2: Create Your FastAPI "TreatOrHell" App with Angel Chat 🧱
 
 ### Set Up Your Project Structure
 
@@ -320,4 +320,4 @@ Use this information to personalize your responses and reference their behavior 
 
 ---
 
-Enjoy building your Hot Mess Coach backend! 🎉
+Enjoy building your TreatOrHell backend! 🎉
