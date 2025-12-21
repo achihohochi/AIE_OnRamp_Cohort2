@@ -6,18 +6,14 @@ export async function POST(request: NextRequest) {
   const BACKEND_URL = (process.env.NEXT_PUBLIC_BACKEND_URL || "http://127.0.0.1:8000").replace(/\/$/, "")
 
   try {
-    const { message, character } = await request.json()
+    const { message } = await request.json()
 
     if (!message || typeof message !== "string") {
       return NextResponse.json({ error: "Message is required" }, { status: 400 })
     }
 
-    if (!character || !["angel", "devil", "nicholas"].includes(character)) {
-      return NextResponse.json({ error: "Invalid character" }, { status: 400 })
-    }
-
-    // Map character to endpoint
-    const endpoint = `/chat/${character}`
+    // Use the /api/chat endpoint from the backend
+    const endpoint = `/api/chat`
 
     console.log("[v0] Calling FastAPI backend:", `${BACKEND_URL}${endpoint}`)
     console.log("[v0] Message:", message)

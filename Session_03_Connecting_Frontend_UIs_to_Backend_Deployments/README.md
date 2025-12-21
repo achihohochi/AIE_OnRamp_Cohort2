@@ -3,11 +3,11 @@
      height="auto"/>
 </p>
 
-## <h1 align="center" id="heading">Session 4: End-to-End LLM Application Development with Coding Agents</h1>
+## <h1 align="center" id="heading">Session 3: Connecting Frontend UIS To Backend Deployments</h1>
 
-| 🤓 Pre-work | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
-|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| Coming soon! | [Recording!](https://us02web.zoom.us/rec/share/PtbREKVgUt3H0B2C46MyOaViNICb0IKl9IeEQCFt7KyK8kiKH8sYbtrpEwePXXIy.hCKQNvrnHUHercUI) (Shu4=fHy) | [Slides](https://www.canva.com/design/DAG5nmUrmgE/COB2qw0hmv-UHk_7CuWTHA/edit?utm_content=DAG5nmUrmgE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | [Repo](https://github.com/AI-Maker-Space/AIEO1/tree/main/Session_04_End_to_End_LLM_Application_Development_with_Coding_Agents) | [HW #4](https://forms.gle/KCqQ1c2zCBeWPsAt8) | [Maven feedback](https://maven.com/aimakerspace/ai-eng-onramp/1/home#197f79) |
+| ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📄 Homework       | 📁 Feedback       | 
+|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
+| [Recording!](https://us02web.zoom.us/rec/share/LUaI1ZfiHiS8CKPdkiLdV3P7nC28VdfdgQevT8QSQZ1nxhrBQ5OZMdiRTcxkdcdG.XuT4aDzDRCfgJ42M) (Ys&0R.s3) | [Slides](https://www.canva.com/design/DAG6SJk52Ac/h9ESc8SDgV9ARGtHs70sHQ/edit?utm_content=DAG6SJk52Ac&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [HW Submission](https://forms.gle/3CeuMZZdy61H71Hz9) | [12/15 Feedback](https://forms.gle/jz7dpAWeSfPVM6s56) |
 
 ---
 
@@ -114,7 +114,7 @@ Feel free to reach out if you're curious or would like to collaborate on similar
 ## 📚 Table of Contents
 
 - [Overview](#overview)
-- [Step 1: Create Empty Repository and Set Up AIE-Challenge](#step-1-create-empty-repository-and-set-up-aie-challenge)
+- [Step 1: Create Repository and Set Up AIE-Challenge](#step-1-create-empty-repository-and-set-up-aie-challenge)
 - [Step 2: Test Backend Locally](#step-2-test-backend-locally)
 - [Step 3: Deploy Backend to Vercel](#step-3-deploy-backend-to-vercel)
 - [Step 4: Create Frontend with v0](#step-4-create-frontend-with-v0)
@@ -149,8 +149,7 @@ In this assignment, you will finalize the AIE-challenge by creating a complete e
 
 ## 1.1 Create an Empty GitHub Repository
 
-1. Go to GitHub and create a new empty repository (e.g., `aie-challenge-wishlist`)
-2. **Do not** initialize it with a README, .gitignore, or license
+1. Go to GitHub and create a new repository (e.g., `aie-challenge-wishlist`)
 
 <details>
 <summary><strong>1.2 Clone Your Empty Repository</strong></summary>
