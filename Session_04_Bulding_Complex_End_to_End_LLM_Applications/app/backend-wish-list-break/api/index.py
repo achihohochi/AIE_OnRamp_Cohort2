@@ -210,23 +210,10 @@ def evaluate_response(request: EvaluateRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# Vercel never runs servers, so we need to use uvicorn to run the server
-# Why?
-
-# Uvicorn tries to:
-# Open a port
-# Listen for traffic
-# Stay alive forever
-
-# Vercel says:
-# “No. I already handle traffic and ports. Vercel charges you for every request.”
-
-# if __name__ == "__main__":
-#     import uvicorn
-#     uvicorn.run(app)
-
-# Vercel cannot use a background async task that runs independently of the current request.
-# for submit request return status ok and 10s later print done
+# Note: Background async tasks in Vercel serverless functions are unreliable.
+# Vercel functions are stateless and may terminate before background tasks complete.
+# While this might work sometimes, it's not guaranteed and not recommended.
+# For submit request return status ok and 10s later print done
 # import asyncio
 
 # async def log_event():
